@@ -1,9 +1,6 @@
 {pkgs, ...}: {
   imports = [
-    ./scripts
-    ./waybar/waybar.nix
-    ./wlogout/wlogout.nix
-    ./hyprlock/hyprlock.nix
+    ./hypr
   ];
 
   home.packages = with pkgs; [
