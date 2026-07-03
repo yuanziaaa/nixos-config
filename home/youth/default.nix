@@ -5,15 +5,10 @@
   ...
 }: {
   imports = [
-    ./shell
-    ./programs
     ./terminal
-    ./niri
     ./hyprland
     ./noctalia
     ./fcitx5
-    ./rofi
-    ./wallpaper
     ./music
   ];
 
